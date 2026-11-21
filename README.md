@@ -1,13 +1,3 @@
-# TalentHub Recruiters — Real-time Support Chat (MERN Stack)
-
-**Intern:** Muhammad Talha Ayub  
-**Technology:** MERN Stack (Node.js, Express, MongoDB, Mongoose, JWT, bcryptjs, Socket.io)  
-**Client:** TalentHub Recruiters  
-**Task 1 Status:** Completed & Fully Tested (Backend Skeleton & JWT Authentication)  
-**GitHub Repository:** [https://github.com/Talha-1-1/talenthub-recruiters](https://github.com/Talha-1-1/talenthub-recruiters)
-
----
-
 ## 📝 What Has Been Done So Far (Task 1 Progress Summary)
 
 ### 1. Project Initialization & Architecture Setup
