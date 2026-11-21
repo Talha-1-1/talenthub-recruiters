@@ -45,8 +45,8 @@
 * **`GET /api/auth/profile`**: Dual-path compatibility route for flexible client integration.
 
 ### 6. Testing & Quality Assurance
-* Built an automated test suite ([test-auth.js](file:///e:/Ezitech/TalentHub%20Recruiters/test-auth.js)) with Supertest testing 8 end-to-end scenarios (registration, duplicate checks, login, invalid login rejection, protected profile access, and tokenless 401 rejections).
-* Packaged a ready-to-import Postman collection ([TalentHub_Chat_Task1.postman_collection.json](file:///e:/Ezitech/TalentHub%20Recruiters/TalentHub_Chat_Task1.postman_collection.json)) configured with collection variables and automated token-saving scripts.
+* Built an automated test suite (`test-auth.js`) with Supertest testing 8 end-to-end scenarios (registration, duplicate checks, login, invalid login rejection, protected profile access, and tokenless 401 rejections).
+* Packaged a ready-to-import Postman collection (`TalentHub_Chat_Task1.postman_collection.json`) configured with collection variables and automated token-saving scripts.
 
 ---
 
@@ -114,12 +114,12 @@ PORT=5000
 NODE_ENV=development
 
 # MongoDB Connection String (Atlas or Local)
-# Atlas URI: mongodb+srv://<username>:<password>@cluster0.mongodb.net/talenthub_chat?retryWrites=true&w=majority
-# Local URI: mongodb://127.0.0.1:27017/talenthub_chat
-MONGO_URI=mongodb://127.0.0.1:27017/talenthub_chat
+# Atlas URI: mongodb+srv://<username>:<password>@cluster0.mongodb.net/<database_name>?retryWrites=true&w=majority
+# Local URI: mongodb://127.0.0.1:27017/<database_name>
+MONGO_URI=your_mongodb_connection_string
 
 # JWT Configuration
-JWT_SECRET=talenthub_jwt_super_secret_key_2026_change_in_production
+JWT_SECRET=your_jwt_secret_key
 JWT_EXPIRE=7d
 ```
 
